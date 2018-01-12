@@ -9,7 +9,7 @@ public class HelloWorldSWT {
 
 		Display display = new Display();
 		Shell shell = new Shell(display);
-		shell.setText("Hello world! Now within github");
+		shell.setText("Hello world! Now still within github");
 		Label label = new Label(shell, SWT.BORDER);
 		label.setText("Another Hello World; completely within github!");
 		label.pack();
