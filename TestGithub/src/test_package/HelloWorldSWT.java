@@ -11,7 +11,7 @@ public class HelloWorldSWT {
 		Shell shell = new Shell(display);
 		shell.setText("Hello world! Now still within github");
 		Label label = new Label(shell, SWT.BORDER);
-		label.setText("Another Hello World;committed (maybe)but not pushed???");
+		label.setText("Hello World;committed (maybe)but not pushed???");
 		label.pack();
 
 		shell.pack();
